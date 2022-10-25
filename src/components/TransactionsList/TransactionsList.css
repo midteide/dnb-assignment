@@ -1,0 +1,19 @@
+.container {
+  padding: 20px;
+}
+
+.header {
+  font-size: calc(10px + 1.5vmin);
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+button {
+  border-radius: 8px;
+  padding: 4px;
+  margin-right: 8px;
+}
+
+.buttons-wrapper {
+  margin-bottom: 1rem;
+}

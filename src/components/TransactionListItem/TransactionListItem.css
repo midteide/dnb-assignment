@@ -1,0 +1,34 @@
+.transaction-list-item {
+  padding: 16px;
+  background-color: rgb(230, 243, 245);
+  color: rgb(0, 56, 61);
+  font-size: calc(10px + 0.5vmin);
+  margin-bottom: 1rem;
+  border: 1px solid lightgrey;
+  border-radius: 8px;
+
+  display: grid;
+  grid-template-areas:
+    "date name name amount "
+    ". id id editBtn ";
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-column-gap: 8px;
+  grid-row-gap: 16px;
+}
+.transaction-list-item__date {
+  grid-area: date;
+}
+.transaction-list-item__name {
+  grid-area: name;
+}
+.transaction-list-item__amount {
+  grid-area: amount;
+}
+.transaction-list-item__id {
+  grid-area: id;
+  opacity: 0.5;
+}
+.transaction-list-item__editBtn {
+  grid-area: editBtn;
+}
